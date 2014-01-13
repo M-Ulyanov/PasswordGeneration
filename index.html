@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Генератор случайных чисел JS</title>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<!--[if IE 8 ]><link href="css/ie8.css" type="text/css" rel="stylesheet"><![endif]-->
+<!--[if IE 9 ]><link href="css/ie9.css" type="text/css" rel="stylesheet"><![endif]-->
+<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script src="js/script.js"></script>
+<noscript><span>Для использования генератора необходимо включить Javascript!</span></noscript>
+</head>
+<body>
+	<div id="box">
+		<audio id="myaudio" preload="auto">
+		   <source src="audio/beep.ogg">
+		   <source src="audio/beep.mp3">
+		 </audio>
+		<button id="buttonGoPass" type="input">Сгенерировать</button>
+		<div id="input-pass-block">
+			<h3>Выберите сложность пароля:</h3>
+			<div class="radio" id="low">lowVal</div>
+			<div class="radio" id="middle">middleVal</div>
+			<div class="radio" id="hard">hardVal</div>
+			<div class="clear"></div>
+			<input type="hidden" id="typePass">
+		</div>
+		<div id="info">
+			<div id="low-info">Будет сгенерирован простой пароль
+			длинной в 8 символов состоящий из маленьких и заглавных
+			латинских букв.
+			</div>
+			<div id="middle-info">Будет сгенерирован средний пароль
+			длинной в 12 символов состоящий из латинских букв и цифр.
+			</div>
+			<div id="hard-info">Будет сгенерирован сложный пароль
+			длинной в 16 символов состоящий из латинских букв, цифр и
+			специальных символов.
+			</div>
+		</div>
+		<div id="result-screen">
+			<div id="result-pass">
+				
+			</div>
+		</div>
+	</div>	
+</body>
+</html>

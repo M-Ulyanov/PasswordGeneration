@@ -1,0 +1,161 @@
+/*Reset*/
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+}
+input{
+	
+	border:none;
+}
+ul{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+input,select,option{
+	outline:0;
+	border:0;
+}
+a{
+    text-decoration: none;
+}
+
+/*HTML5*/
+header, article, nav, footer, section{
+   display:block;
+}
+
+/*Fonts*/
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic,cyrillic-ext);
+
+
+/*General*/
+html, body{
+	height:100%;
+}
+body{
+	background:#F5F5F5;
+	font: 14px 'PT Sans', sans-serif;
+}
+
+/*--------------Random password style----------*/
+/*
+//
+*/
+div#box {
+	text-align: center;
+	margin-top: 50px;
+}
+#input-pass-block{
+	overflow:hidden;
+	width: 500px;
+	margin: 0 auto;
+}
+.radio{
+	text-indent:-9999px;
+	float:left;
+	margin:0 5px;
+	height:68px;
+	width:68px;
+	background:url(../images/radio-pass.png);
+	cursor: pointer;
+	position:relative;
+}
+#buttonGoPass{
+	margin-bottom:20px;
+}
+#input-pass-block h3{
+	margin-bottom:10px;
+}
+#result-pass{
+	margin-top:55px;
+}
+#result-pass h2{
+	font-size: 18px;
+	color: #E92626;
+	font-weight:bold;
+}
+#low{
+	background-position:0 0;
+	margin-left: 140px;
+}
+.low-active, #low:hover{
+	background-position:0 -70px !important;
+}
+#middle{
+	background-position:-76px 0;
+}
+.middle-active, #middle:hover{
+	background-position:-76px -70px !important;
+}
+#hard{
+	background-position:-152px 0;
+}
+.hard-active, #hard:hover{
+	background-position:-152px -70px !important;
+}
+.radio.active {
+	background-image: url(../images/radio-pass.png);
+	background-position: 0 -66px;
+}
+#result-pass .variant-pass{
+	display:block;
+	font-size: 22px;
+	font-weight: bold;
+	border-bottom: 1px solid rgb(194, 191, 191);
+	padding: 10px;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.82);
+}
+#info{
+	position:relative;
+	width: 500px;
+	margin: 0 auto;
+}
+#low-info, #middle-info, #hard-info{
+	background: rgb(240, 240, 240);
+	width: 500px;
+	position:absolute;
+	top:0;
+	margin: 10px auto;
+	padding: 7px;
+	border: 1px solid rgb(219, 219, 219);
+	color: rgb(136, 136, 136);
+	font-size: 13px;
+}
+#result-screen{
+	width:350px;
+	margin:0 auto 20px;
+}
+#result-screen-content{
+	margin-top:-80px;
+	width:350px;
+}
+#buttonGoPass{
+	background: #3D3D3D;
+	border: none;
+	margin-bottom:30px;
+	padding: 15px 40px;
+	color: #FFF;
+	cursor: pointer;
+	outline: none;
+	box-shadow:#2C2A2A 0 6px 0px, rgba(129, 126, 126, 0.3) 0 10px 3px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	position: relative;
+	top:0px;
+	transition:0.1s;
+
+}
+#buttonGoPass:active{
+	box-shadow:#2C2A2A 0 3px 0, rgba(0, 0, 0, 0.2) 0 6px 3px;
+	position:relative;
+	top:5px;
+	transition:0.1s;
+
+}
+/*--------------END Random password style----------*/
