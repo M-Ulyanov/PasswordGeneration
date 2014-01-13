@@ -18,4 +18,4 @@ PasswordGeneration v1
 
 ##Пример работы
 
-Можно посмотреть <a href="http://dd.web-ulyanov.ru/PasswordGeneration ">Здесь</a>
+Можно посмотреть <a href="http://dd.web-ulyanov.ru/PasswordGeneration">Здесь</a>
