@@ -16,3 +16,6 @@ PasswordGeneration v1
 
  - IE8+ и все современные браузеры
 
+##Пример работы
+
+Можно посмотреть <a href="http://dd.web-ulyanov.ru/PasswordGeneration ">Здесь</a>
